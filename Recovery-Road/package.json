@@ -5,6 +5,7 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
+    "heroku-postbuild": "ng build"
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
@@ -35,5 +36,11 @@
     "karma-jasmine": "~4.0.0",
     "karma-jasmine-html-reporter": "~1.7.0",
     "typescript": "~4.6.2"
+
+  },
+
+  "enginges": {
+    "node": "16.5.0",
+    "npm": "7.20.0"
   }
 }
